@@ -49,8 +49,23 @@ field_aliases = {
     "rain": "rainfall"
 }
 
+# Detect and report known schema changes before renaming
+detected_changes = []
+
+for old_field, standard_field in field_aliases.items():
+    if old_field in weather.columns:
+        detected_changes.append(
+            f"{old_field} -> {standard_field}"
+        )
+
+if detected_changes:
+    print("\n⚠️ Known API schema change detected:")
+    for change in detected_changes:
+        print("   ", change)
+
 # Rename changed fields to the standard names
 weather = weather.rename(columns=field_aliases)
+
 actual_columns = set(weather.columns)
 
 missing_columns = expected_columns - actual_columns
