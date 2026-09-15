@@ -1,0 +1,26 @@
+[
+    {
+        "user_id": "E101",
+        "timestamp": "2026-09-15 10:30:00",
+        "page": "products",
+        "action": "view"
+    },
+    {
+        "user_id": "E102",
+        "timestamp": "2026-09-15 11:15:00",
+        "page": "laptop",
+        "action": "purchase"
+    },
+    {
+        "user_id": "E103",
+        "timestamp": "2026-09-15 12:00:00",
+        "page": "keyboard",
+        "action": "view"
+    },
+    {
+        "user_id": "E104",
+        "timestamp": "2026-09-16 14:20:00",
+        "page": "monitor",
+        "action": "purchase"
+    }
+]

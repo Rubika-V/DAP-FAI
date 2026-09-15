@@ -1,0 +1,20 @@
+[
+    {
+        "date": "2026-09-15",
+        "location": "Chennai",
+        "temperature": 31,
+        "rainfall": 5
+    },
+    {
+        "date": "2026-09-16",
+        "location": "Chennai",
+        "temperature": 30,
+        "rainfall": 8
+    },
+    {
+        "date": "2026-09-17",
+        "location": "Chennai",
+        "temperature": 32,
+        "rainfall": 2
+    }
+]

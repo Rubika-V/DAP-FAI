@@ -1,0 +1,14 @@
+[
+    {
+        "date": "2026-09-15",
+        "location": "Chennai",
+        "temp": 31,
+        "rain": 5
+    },
+    {
+        "date": "2026-09-16",
+        "location": "Chennai",
+        "temp": 30,
+        "rain": 8
+    }
+]
