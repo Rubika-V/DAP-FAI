@@ -81,3 +81,26 @@ Run large-data processing:
 Run tests:
 
     python -m pytest
+## Project Structure
+
+```text
+DAP-FAI/
+├── data/
+│   ├── sample_sales.csv
+│   ├── employee_corrections.xlsx
+│   ├── website_logs.json
+│   ├── weather.json
+│   └── weather_changed.json
+├── docs/
+│   └── report.pdf
+├── tests/
+│   └── test_pipeline.py
+├── src/
+│   ├── main.py
+│   ├── generate_sales.py
+│   ├── process_large_data.py
+│   └── create_excel.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── LICENSE
